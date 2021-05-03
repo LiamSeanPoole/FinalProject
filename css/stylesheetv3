@@ -1,0 +1,464 @@
+/*sections------------------------------------------------------------------- */
+body {
+	background-color: #F0F0F0;
+	font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 20px
+}
+#wrapper {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+    background-color: #FFF;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+}
+article	{
+}
+aside	{
+}
+footer {
+}
+header {
+    margin-bottom: 0px;
+}
+main  {
+}
+nav	{
+
+}
+}
+section  {
+}
+legend{
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #5ec2da;
+	font-size: 16px;
+    
+}
+.post	{
+}
+
+/*headings------------------------------------------------------------------- */
+h1	{
+	font-family: Georgia, "Arial", Times, serif;
+    text-align: center;
+	color:  #FFF;
+	font-size: 36px;
+	line-height: 50px;
+
+	background-color: #5ec2da;
+}
+h2	{
+}
+h3 	{
+}
+h4	{
+}
+h5	{
+}
+h6	{
+}
+/*grouping------------------------------------------------------------------- */
+p	{
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+}
+blockquote	{
+}
+/*lists---------------------------------------------------------------------- */
+ul	{
+}
+li	{
+}
+ol	{
+}
+dl	{
+}
+dt	{
+}
+dd	{
+}
+/*text------------------------------------------------------------------------ */
+em	{
+}
+strong	{
+}
+small	{
+}
+cite	{
+}
+time	{
+}
+/*image----------------------------------------------------------------------- */
+figure	{
+}
+figcaption	{
+}
+img	{
+}
+/*anchors--------------------------------------------------------------------- */
+img { max-width: 100%; }
+a:link, a:visited, a:active	{
+	color: #0090D2;
+    
+}
+.table-container {
+width: 100%;
+    height:300px;
+   overflow-x: auto;
+    overflow-y: auto;
+    
+}
+
+.post	{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: #5ec2da;
+    font-family: 'Strait', sans-serif;
+    color:#FFF;
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+.fltlt {
+	float: right;
+	margin-right: 8px;
+	}
+	.clear {
+	clear: both;
+	}
+
+p.dropcap:first-letter {
+    float: left;
+  font-family: Georgia, "Arial", Times, serif;
+  color:#000;
+  font-size: 5em;
+  line-height: 0.2;
+  margin: 8px 5px 0 0;
+}
+.video-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+iframe	{
+  width: 100%;
+  height: auto;
+}
+.video-container {
+	 position: relative;
+	 padding-bottom: 56.25%;
+  height: 0; 
+}
+.video-container iframe {
+	 position: absolute;
+	 top: 0; left: 0; right: 0; bottom: 0;
+	 width: 100%;
+  height: 100%;
+}
+    article img {
+  float: left;
+  padding: 2%;
+  width: 40%; 
+  max-width: 300px;
+}
+.clear {
+  clear: both;
+}
+.media {
+	display: flex;
+	flex-wrap: wrap;
+}
+.media-item {
+	display: flex; 
+	width: 100%;
+}
+
+label {display: block;
+padding: .5em 0 .5em 0;}
+input {display: block;
+font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 20px;
+    width:98%;
+    height:1.5em;
+}
+textarea {display: block;
+font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 20px;
+    width:98%;
+    height:5em;
+    
+}
+input [type="radio"]{
+    width:auto;
+} 
+
+.container {
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+    background-color: #5ec2da;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+
+
+
+a:link {
+    text-decoration: none;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #0000EE;
+	font-size: 16px;
+}
+
+a:visited {
+    text-decoration: none;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #551A8B;
+	font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #5ec2da;
+	font-size: 16px;
+}
+
+a:active {
+    text-decoration: underline;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #5ec2da;
+	font-size: 16px;
+}
+.menu { ; 
+background:#5ec2da
+}
+.menu ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.menu li	{
+  display: block;
+  margin: 0;
+border: 2px solid #FFF;
+}
+.menu a {
+  display: block;
+  color: #FFF;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #5ec2da;
+  background-color: #5ec2da;
+}
+.menu a:active {
+  display: block;
+  color: #FFF;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #5ec2da;
+  background-color: #5ec2da;
+}
+.menu a:visited {
+  display: block;
+  color: #FFF;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #5ec2da;
+  background-color: #5ec2da;
+}
+.menu a:hover {
+
+     display: block;
+  color: #5ec2da;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #5ec2da;
+  background-color: #FFF;
+}
+input[type="submit"]{
+    color: #5ec2da;
+    background-color: #FFF;
+    font-family: Georgia, "Arial", Times, serif;
+    text-align: center;
+    width: auto;
+    border: 2px solid #5ec2da;
+}
+a.top{color: #5ec2da;}
+footer { padding: 2em 3em 2em 3em;
+    background-color: #5ec2da;
+    color: #FFF}
+a.email{
+    color: #FFF
+}
+
+
+@media screen and (min-width: 40em)
+{
+.media-item	{ width: 50%; }
+    
+}
+@media screen and (min-width: 60em) 
+{
+.media-item	{ width: 33.33%; }
+ }
+
+.media-content {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	width: 100%;
+}
+
+
+@media (min-width: 55em)
+{	.banner { padding: 1.5em 3em 1.5em 3em; }
+	.menu { padding: 1em 3em 1em 3em; }
+    article { padding: ; }
+
+	main
+	{
+		float: left;
+		width: 65%;
+		margin-right: 3%;
+		border-right: 1px solid #000;
+	}
+
+	aside
+	{
+		float: left;
+		width: 30%;
+		margin-bottom: 1em;
+	}
+
+	
+    .menu li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+        border: none;
+	}
+    .menu a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+        
+  color: #FFF;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  background-color: #5ec2da;
+
+	}
+    .menu a:hover {
+display: inline;
+		padding: 0;
+		border-bottom: 0;
+  color: #5ec2da;
+  padding: 5px;
+  margin-right: 4px;
+  text-decoration: none;
+  border: 2px solid #5ec2da;
+  background-color: #FFF;
+    }
+    .banner-clipped {
+  overflow: hidden;
+        max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+
+}   
+#col {
+  column-count: 2;
+  column-count: 2;
+  column-count: 2;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    text-indent: 0.5em;
+    font-family: Georgia, "Arial", Times, Serif;
+	color: #333;
+	font-size: 16px;
+}   
+
+}
+footer { padding: 2em 3em 2em 3em;
+    background-color: #5ec2da;
+    color: #FFF
+    }
+
+@media (max-width : 20em) {}
+.fltrt {
+    float: right;
+	margin-left: .5em;
+}
+
+.fltlt{float: left;
+	margin-right: .5em;
+}
+    article img {
+  float: left;
+  padding: 2%;
+  width: 96%;
+  
+}
